@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.jumpq.jump_q.app-mergeReleaseResources-46:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/Users/viirrawat/Library/Android/sdk/caches/transforms-3/b776bb6a682e44ed621f88c22bc9159d/transformed/appcompat-1.4.2/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

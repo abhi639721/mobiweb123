@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/drawable-xhdpi_splash.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/drawable-xhdpi/splash.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/drawable-mdpi_splash.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/drawable-mdpi/splash.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/drawable-hdpi_splash.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/drawable-hdpi/splash.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/drawable-xxxhdpi_splash.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/drawable-xxxhdpi/splash.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/drawable-xxhdpi_splash.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/drawable-xxhdpi/splash.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/drawable-v21_background.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/drawable-v21/background.png"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/drawable-v21_launch_background.xml.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "com.jumpq.jump_q.app-merged_res-48:/drawable_app_logoo.png.flat",
+        "source": "com.jumpq.jump_q.app-main-40:/drawable/app_logoo.png"
+    }
+]

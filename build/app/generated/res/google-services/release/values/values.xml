@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">643567428274-2glemb52kp45tnu07kje0hgbgihuumbm.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">643567428274</string>
+    <string name="google_api_key" translatable="false">AIzaSyCub-mxQUzV5I7jG4uMJRPheuWAawY8ybk</string>
+    <string name="google_app_id" translatable="false">1:643567428274:android:84d6d907834c3018a79fab</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCub-mxQUzV5I7jG4uMJRPheuWAawY8ybk</string>
+    <string name="google_storage_bucket" translatable="false">jumpq-92074.appspot.com</string>
+    <string name="project_id" translatable="false">jumpq-92074</string>
+</resources>

@@ -1,0 +1,1066 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jumpq.jump_q"
+4    android:versionCode="3"
+5    android:versionName="1.0.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:4:5-64
+11-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:4:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:5:5-80
+12-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:6:5-79
+13-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:7:5-66
+14-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:7:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:8:5-79
+15-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:9:5-81
+16-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+17-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+18-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+18-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+19-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->[:geolocator_android] /Users/viirrawat/development/project/flutter/jumpq/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+20-->[:geolocator_android] /Users/viirrawat/development/project/flutter/jumpq/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+21-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+22-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+23    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+23-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+23-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+24    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+24-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+24-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+25    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+25-->[:open_file] /Users/viirrawat/development/project/flutter/jumpq/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-83
+25-->[:open_file] /Users/viirrawat/development/project/flutter/jumpq/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-80
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.firebase:firebase-messaging:23.1.1] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/78c44d617330def83893779632e83da3/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:5-82
+26-->[com.google.firebase:firebase-messaging:23.1.1] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/78c44d617330def83893779632e83da3/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:28:22-79
+27    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+27-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/26aeb8ca98d47fe5a7dfb52ee7f15a04/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+27-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/26aeb8ca98d47fe5a7dfb52ee7f15a04/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+28
+29    <uses-feature
+29-->[com.google.android.gms:play-services-maps:18.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/ebd3e00ff57156730499f7cdfa995ff3/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+30        android:glEsVersion="0x00020000"
+30-->[com.google.android.gms:play-services-maps:18.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/ebd3e00ff57156730499f7cdfa995ff3/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+31        android:required="true" />
+31-->[com.google.android.gms:play-services-maps:18.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/ebd3e00ff57156730499f7cdfa995ff3/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+32
+33    <queries>
+33-->[com.google.android.gms:play-services-maps:18.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/ebd3e00ff57156730499f7cdfa995ff3/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+34
+35        <!-- Needs to be explicitly declared on Android R+ -->
+36        <package android:name="com.google.android.apps.maps" />
+36-->[com.google.android.gms:play-services-maps:18.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/ebd3e00ff57156730499f7cdfa995ff3/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+36-->[com.google.android.gms:play-services-maps:18.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/ebd3e00ff57156730499f7cdfa995ff3/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+37    </queries>
+38
+39    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+39-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+39-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+40
+41    <permission
+41-->[androidx.core:core:1.9.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/c18a9feb648b807476e48674edae29bf/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+42        android:name="com.jumpq.jump_q.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+42-->[androidx.core:core:1.9.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/c18a9feb648b807476e48674edae29bf/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+43        android:protectionLevel="signature" />
+43-->[androidx.core:core:1.9.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/c18a9feb648b807476e48674edae29bf/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+44
+45    <uses-permission android:name="com.jumpq.jump_q.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+45-->[androidx.core:core:1.9.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/c18a9feb648b807476e48674edae29bf/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+45-->[androidx.core:core:1.9.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/c18a9feb648b807476e48674edae29bf/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+46    <uses-feature
+46-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
+47        android:name="android.hardware.camera"
+47-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:26:9-47
+48        android:required="false" />
+48-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:27:9-33
+49    <uses-feature
+49-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+50        android:name="android.hardware.camera.front"
+50-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+51        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+51-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+52    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+53    <uses-feature
+53-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+54        android:name="android.hardware.camera.autofocus"
+54-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+55        android:required="false" />
+55-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+56    <uses-feature
+56-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+57        android:name="android.hardware.camera.flash"
+57-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+58        android:required="false" />
+58-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+59    <uses-feature
+59-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+60        android:name="android.hardware.screen.landscape"
+60-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+61        android:required="false" />
+61-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+62    <uses-feature
+62-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+63        android:name="android.hardware.wifi"
+63-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+64        android:required="false" />
+64-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+65
+66    <application
+66-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:14:5-67:19
+67        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+67-->[androidx.core:core:1.9.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/c18a9feb648b807476e48674edae29bf/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+68        android:icon="@mipmap/ic_launcher"
+68-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:16:9-43
+69        android:label="Jump Q"
+69-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:15:9-31
+70        android:supportsRtl="true" >
+70-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:20:9-35
+71        <activity
+71-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:18:9-53:20
+72            android:name="com.jumpq.jump_q.MainActivity"
+72-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:19:13-41
+73            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+73-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:23:13-163
+74            android:exported="true"
+74-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:20:13-36
+75            android:hardwareAccelerated="true"
+75-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:24:13-47
+76            android:launchMode="singleTop"
+76-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:21:13-43
+77            android:theme="@style/LaunchTheme"
+77-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:22:13-47
+78            android:windowSoftInputMode="adjustResize" >
+78-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:25:13-55
+79
+80            <!--
+81                 Specifies an Android theme to apply to this Activity as soon as
+82                 the Android process has started. This theme is visible to the user
+83                 while the Flutter UI initializes. After that, this theme continues
+84                 to determine the Window background behind the Flutter UI.
+85            -->
+86            <meta-data
+86-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:31:13-34:17
+87                android:name="io.flutter.embedding.android.NormalTheme"
+87-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:32:15-70
+88                android:resource="@style/NormalTheme" />
+88-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:33:15-52
+89            <!--
+90                 Displays an Android View that continues showing the launch screen
+91                 Drawable until Flutter paints its first frame, then this splash
+92                 screen fades out. A splash screen is useful to avoid any visual
+93                 gap between the end of Android's launch screen and the painting of
+94                 Flutter's first frame.
+95            -->
+96            <meta-data
+96-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:40:13-43:17
+97                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+97-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:41:15-79
+98                android:resource="@drawable/launch_background" />
+98-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:42:15-61
+99
+100            <intent-filter>
+100-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:44:13-48:29
+101                <action android:name="android.intent.action.MAIN" />
+101-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:45:17-46:23
+101-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:45:25-66
+102
+103                <category android:name="android.intent.category.LAUNCHER" />
+103-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:47:17-76
+103-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:47:27-74
+104            </intent-filter>
+105            <intent-filter>
+105-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:49:13-52:29
+106                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+106-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:50:17-69
+106-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:50:25-66
+107
+108                <category android:name="android.intent.category.DEFAULT" />
+108-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:51:17-76
+108-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:51:27-73
+109            </intent-filter>
+110        </activity>
+111
+112        <!--
+113             Don't delete the meta-data below.
+114             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+115        -->
+116        <meta-data
+116-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:57:9-59:33
+117            android:name="flutterEmbedding"
+117-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:58:13-44
+118            android:value="2" />
+118-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:59:13-30
+119        <meta-data
+119-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:60:9-62:55
+120            android:name="com.google.firebase.messaging.default_notification_channel_id"
+120-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:61:13-89
+121            android:value="high_importance_channel" />
+121-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:62:13-52
+122
+123        <!-- Only add it if you need Auto OTP reading feature is enabled -->
+124        <meta-data
+124-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:65:9-66:69
+125            android:name="com.google.android.gms.version"
+125-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:65:20-65
+126            android:value="@integer/google_play_services_version" />
+126-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:66:13-66
+127
+128        <service
+128-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+129            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+129-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+130            android:exported="false"
+130-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+131            android:permission="android.permission.BIND_JOB_SERVICE" />
+131-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+132        <service
+132-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+133            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+133-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+134            android:exported="false" >
+134-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+135            <intent-filter>
+135-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+136                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+136-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+136-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+137            </intent-filter>
+138        </service>
+139
+140        <receiver
+140-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+141            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+141-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+142            android:exported="true"
+142-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+143            android:permission="com.google.android.c2dm.permission.SEND" >
+143-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+144            <intent-filter>
+144-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+145                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+145-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+145-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+146            </intent-filter>
+147        </receiver>
+148
+149        <service
+149-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:19
+150            android:name="com.google.firebase.components.ComponentDiscoveryService"
+150-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:18-89
+151            android:directBootAware="true"
+151-->[com.google.firebase:firebase-common:20.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b7c4c5b2513e76b39484cd208cddfdd5/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+152            android:exported="false" >
+152-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/6ec91234013d366cb5bf34800598e5dc/transformed/jetified-firebase-analytics-ktx-21.2.0/AndroidManifest.xml:10:13-37
+153            <meta-data
+153-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+154                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+154-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+156            <meta-data
+156-->[:firebase_crashlytics] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+157                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+157-->[:firebase_crashlytics] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-130
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[:firebase_crashlytics] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+159            <meta-data
+159-->[:firebase_core] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+160                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+160-->[:firebase_core] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[:firebase_core] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/6ec91234013d366cb5bf34800598e5dc/transformed/jetified-firebase-analytics-ktx-21.2.0/AndroidManifest.xml:11:13-13:85
+163                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+163-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/6ec91234013d366cb5bf34800598e5dc/transformed/jetified-firebase-analytics-ktx-21.2.0/AndroidManifest.xml:12:17-126
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/6ec91234013d366cb5bf34800598e5dc/transformed/jetified-firebase-analytics-ktx-21.2.0/AndroidManifest.xml:13:17-82
+165            <meta-data
+165-->[com.google.firebase:firebase-common-ktx:20.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/67517ba8ca48dc358c7284aee977611c/transformed/jetified-firebase-common-ktx-20.3.0/AndroidManifest.xml:14:13-16:85
+166                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+166-->[com.google.firebase:firebase-common-ktx:20.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/67517ba8ca48dc358c7284aee977611c/transformed/jetified-firebase-common-ktx-20.3.0/AndroidManifest.xml:15:17-113
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[com.google.firebase:firebase-common-ktx:20.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/67517ba8ca48dc358c7284aee977611c/transformed/jetified-firebase-common-ktx-20.3.0/AndroidManifest.xml:16:17-82
+168            <meta-data
+168-->[com.google.firebase:firebase-messaging:23.1.1] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/78c44d617330def83893779632e83da3/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:55:13-57:85
+169                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+169-->[com.google.firebase:firebase-messaging:23.1.1] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/78c44d617330def83893779632e83da3/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:56:17-119
+170                android:value="com.google.firebase.components.ComponentRegistrar" />
+170-->[com.google.firebase:firebase-messaging:23.1.1] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/78c44d617330def83893779632e83da3/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:57:17-82
+171            <meta-data
+171-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b16dd4dee47ad5db7578a7edefdd4737/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+172                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+172-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b16dd4dee47ad5db7578a7edefdd4737/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b16dd4dee47ad5db7578a7edefdd4737/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+174            <meta-data
+174-->[com.google.firebase:firebase-crashlytics:18.3.5] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b8e11f803507c505818acf20c45dc642/transformed/jetified-firebase-crashlytics-18.3.5/AndroidManifest.xml:17:13-19:85
+175                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+175-->[com.google.firebase:firebase-crashlytics:18.3.5] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b8e11f803507c505818acf20c45dc642/transformed/jetified-firebase-crashlytics-18.3.5/AndroidManifest.xml:18:17-115
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.firebase:firebase-crashlytics:18.3.5] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b8e11f803507c505818acf20c45dc642/transformed/jetified-firebase-crashlytics-18.3.5/AndroidManifest.xml:19:17-82
+177            <meta-data
+177-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+178                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+178-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+180            <meta-data
+180-->[com.google.firebase:firebase-iid:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/90b722488c14cfa29d81043f1a5d43ea/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+181                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+181-->[com.google.firebase:firebase-iid:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/90b722488c14cfa29d81043f1a5d43ea/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[com.google.firebase:firebase-iid:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/90b722488c14cfa29d81043f1a5d43ea/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+183            <meta-data
+183-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/26aeb8ca98d47fe5a7dfb52ee7f15a04/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+184                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+184-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/26aeb8ca98d47fe5a7dfb52ee7f15a04/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/26aeb8ca98d47fe5a7dfb52ee7f15a04/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+186            <meta-data
+186-->[com.google.firebase:firebase-installations:17.1.2] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/217334b446a3f6223e0295a4019ed7c1/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:17:13-19:85
+187                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+187-->[com.google.firebase:firebase-installations:17.1.2] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/217334b446a3f6223e0295a4019ed7c1/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:18:17-127
+188                android:value="com.google.firebase.components.ComponentRegistrar" />
+188-->[com.google.firebase:firebase-installations:17.1.2] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/217334b446a3f6223e0295a4019ed7c1/transformed/jetified-firebase-installations-17.1.2/AndroidManifest.xml:19:17-82
+189        </service>
+190
+191        <provider
+191-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+192            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+192-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+193            android:authorities="com.jumpq.jump_q.flutterfirebasemessaginginitprovider"
+193-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+194            android:exported="false"
+194-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+195            android:initOrder="99" />
+195-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+196
+197        <service
+197-->[:geolocator_android] /Users/viirrawat/development/project/flutter/jumpq/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
+198            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+198-->[:geolocator_android] /Users/viirrawat/development/project/flutter/jumpq/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
+199            android:enabled="true"
+199-->[:geolocator_android] /Users/viirrawat/development/project/flutter/jumpq/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
+200            android:exported="false"
+200-->[:geolocator_android] /Users/viirrawat/development/project/flutter/jumpq/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+201            android:foregroundServiceType="location" />
+201-->[:geolocator_android] /Users/viirrawat/development/project/flutter/jumpq/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
+202
+203        <receiver
+203-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+204            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+204-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+205            android:exported="false" />
+205-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+206        <receiver
+206-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+207            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+207-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+208            android:exported="false" />
+208-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+209        <receiver
+209-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+210            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+210-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+211            android:exported="false" >
+211-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+212            <intent-filter>
+212-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+213                <action android:name="android.intent.action.BOOT_COMPLETED" />
+213-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+213-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+214                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+214-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+214-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+215                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+215-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+215-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+216                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+216-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+216-->[:flutter_local_notifications] /Users/viirrawat/development/project/flutter/jumpq/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+217            </intent-filter>
+218        </receiver>
+219
+220        <provider
+220-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+221            android:name="io.flutter.plugins.share.ShareFileProvider"
+221-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-70
+222            android:authorities="com.jumpq.jump_q.flutter.share_provider"
+222-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+223            android:exported="false"
+223-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+224            android:grantUriPermissions="true" >
+224-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+225            <meta-data
+225-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:68
+226                android:name="android.support.FILE_PROVIDER_PATHS"
+226-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+227                android:resource="@xml/flutter_share_file_paths" />
+227-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-65
+228        </provider>
+229        <provider
+229-->[:image_picker_android] /Users/viirrawat/development/project/flutter/jumpq/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+230            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+230-->[:image_picker_android] /Users/viirrawat/development/project/flutter/jumpq/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+231            android:authorities="com.jumpq.jump_q.flutter.image_provider"
+231-->[:image_picker_android] /Users/viirrawat/development/project/flutter/jumpq/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+232            android:exported="false"
+232-->[:image_picker_android] /Users/viirrawat/development/project/flutter/jumpq/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+233            android:grantUriPermissions="true" >
+233-->[:image_picker_android] /Users/viirrawat/development/project/flutter/jumpq/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+234            <meta-data
+234-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:68
+235                android:name="android.support.FILE_PROVIDER_PATHS"
+235-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+236                android:resource="@xml/flutter_image_picker_file_paths" />
+236-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-65
+237        </provider>
+238
+239        <activity
+239-->[:url_launcher_android] /Users/viirrawat/development/project/flutter/jumpq/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+240            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+240-->[:url_launcher_android] /Users/viirrawat/development/project/flutter/jumpq/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+241            android:exported="false"
+241-->[:url_launcher_android] /Users/viirrawat/development/project/flutter/jumpq/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+242            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+242-->[:url_launcher_android] /Users/viirrawat/development/project/flutter/jumpq/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+243
+244        <provider
+244-->[:printing] /Users/viirrawat/development/project/flutter/jumpq/build/printing/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+245            android:name="net.nfet.flutter.printing.PrintFileProvider"
+245-->[:printing] /Users/viirrawat/development/project/flutter/jumpq/build/printing/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-71
+246            android:authorities="com.jumpq.jump_q.flutter.printing"
+246-->[:printing] /Users/viirrawat/development/project/flutter/jumpq/build/printing/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-68
+247            android:exported="false"
+247-->[:printing] /Users/viirrawat/development/project/flutter/jumpq/build/printing/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+248            android:grantUriPermissions="true" >
+248-->[:printing] /Users/viirrawat/development/project/flutter/jumpq/build/printing/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+249            <meta-data
+249-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:68
+250                android:name="android.support.FILE_PROVIDER_PATHS"
+250-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+251                android:resource="@xml/flutter_printing_file_paths" />
+251-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-65
+252        </provider>
+253        <provider
+253-->[:open_file] /Users/viirrawat/development/project/flutter/jumpq/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-23:20
+254            android:name="com.crazecoder.openfile.FileProvider"
+254-->[:open_file] /Users/viirrawat/development/project/flutter/jumpq/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-64
+255            android:authorities="com.jumpq.jump_q.fileProvider.com.crazecoder.openfile"
+255-->[:open_file] /Users/viirrawat/development/project/flutter/jumpq/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-88
+256            android:exported="false"
+256-->[:open_file] /Users/viirrawat/development/project/flutter/jumpq/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-37
+257            android:grantUriPermissions="true" >
+257-->[:open_file] /Users/viirrawat/development/project/flutter/jumpq/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-47
+258            <meta-data
+258-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:68
+259                android:name="android.support.FILE_PROVIDER_PATHS"
+259-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+260                android:resource="@xml/filepaths" />
+260-->[:share] /Users/viirrawat/development/project/flutter/jumpq/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-65
+261        </provider>
+262
+263        <meta-data
+263-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:19:9-21:63
+264            android:name="com.facebook.sdk.ApplicationId"
+264-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:20:13-58
+265            android:value="@string/facebook_application_id" />
+265-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:21:13-60
+266
+267        <activity
+267-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:23:9-27:61
+268            android:name="com.firebase.ui.auth.KickoffActivity"
+268-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:24:13-64
+269            android:exported="false"
+269-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:25:13-37
+270            android:label=""
+270-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:26:13-29
+271            android:theme="@style/FirebaseUI.Transparent" />
+271-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:27:13-58
+272        <activity
+272-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:28:9-32:61
+273            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+273-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:29:13-76
+274            android:exported="false"
+274-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:30:13-37
+275            android:label=""
+275-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:31:13-29
+276            android:theme="@style/FirebaseUI.Transparent" />
+276-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:32:13-58
+277        <activity
+277-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:33:9-37:61
+278            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+278-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:34:13-86
+279            android:exported="false"
+279-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:35:13-37
+280            android:label=""
+280-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:36:13-29
+281            android:theme="@style/FirebaseUI.Transparent" />
+281-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:37:13-58
+282        <activity
+282-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:38:9-42:58
+283            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+283-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:39:13-81
+284            android:exported="false"
+284-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:40:13-37
+285            android:label="@string/fui_title_recover_password_activity"
+285-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:41:13-72
+286            android:windowSoftInputMode="adjustResize" />
+286-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:42:13-55
+287        <activity
+287-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:43:9-47:58
+288            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+288-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:44:13-71
+289            android:exported="false"
+289-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:45:13-37
+290            android:label="@string/fui_sign_in_default"
+290-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:46:13-56
+291            android:windowSoftInputMode="adjustResize" />
+291-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:47:13-55
+292        <activity
+292-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:48:9-52:77
+293            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+293-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:49:13-71
+294            android:exported="false"
+294-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:50:13-37
+295            android:label="@string/fui_sign_in_with_phone_number"
+295-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:51:13-66
+296            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+296-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:52:13-74
+297        <activity
+297-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:53:9-57:58
+298            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+298-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:54:13-76
+299            android:exported="false"
+299-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:55:13-37
+300            android:label="@string/fui_title_welcome_back_idp_prompt"
+300-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:56:13-70
+301            android:windowSoftInputMode="adjustResize" />
+301-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:57:13-55
+302        <activity
+302-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:58:9-62:58
+303            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+303-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:59:13-83
+304            android:exported="false"
+304-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:60:13-37
+305            android:label="@string/fui_title_welcome_back_password_prompt"
+305-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:61:13-75
+306            android:windowSoftInputMode="adjustResize" />
+306-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:62:13-55
+307        <activity
+307-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:63:9-67:58
+308            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+308-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:64:13-84
+309            android:exported="false"
+309-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:65:13-37
+310            android:label="@string/fui_title_welcome_back_password_prompt"
+310-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:66:13-75
+311            android:windowSoftInputMode="adjustResize" />
+311-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:67:13-55
+312        <activity
+312-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:68:9-73:58
+313            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+313-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:69:13-82
+314            android:exported="false"
+314-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:70:13-37
+315            android:label=""
+315-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:71:13-29
+316            android:theme="@style/FirebaseUI.Transparent"
+316-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:72:13-58
+317            android:windowSoftInputMode="adjustResize" />
+317-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:73:13-55
+318        <activity
+318-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:74:9-78:58
+319            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+319-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:75:13-88
+320            android:exported="false"
+320-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:76:13-37
+321            android:label="@string/fui_sign_in_default"
+321-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:77:13-56
+322            android:windowSoftInputMode="adjustResize" />
+322-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:78:13-55
+323        <activity
+323-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:79:9-82:65
+324            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+324-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:80:13-80
+325            android:exported="false"
+325-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:81:13-37
+326            android:label="@string/fui_default_toolbar_title" />
+326-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:82:13-62
+327        <activity
+327-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:83:9-87:48
+328            android:name="com.facebook.FacebookActivity"
+328-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:84:13-57
+329            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+329-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:85:13-96
+330            android:label="@string/app_name" />
+330-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:86:13-45
+331        <activity
+331-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:88:9-100:20
+332            android:name="com.facebook.CustomTabActivity"
+332-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:89:13-58
+333            android:exported="true" >
+333-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:90:13-36
+334            <intent-filter>
+334-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:92:13-99:29
+335                <action android:name="android.intent.action.VIEW" />
+335-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:93:17-69
+335-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:93:25-66
+336
+337                <category android:name="android.intent.category.DEFAULT" />
+337-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:51:17-76
+337-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:51:27-73
+338                <category android:name="android.intent.category.BROWSABLE" />
+338-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:96:17-78
+338-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:96:27-75
+339
+340                <data android:scheme="@string/facebook_login_protocol_scheme" />
+340-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:98:17-81
+340-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:98:23-78
+341            </intent-filter>
+342        </activity>
+343
+344        <provider
+344-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:102:9-106:38
+345            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+345-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:103:13-79
+346            android:authorities="com.jumpq.jump_q.authuiinitprovider"
+346-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:104:13-70
+347            android:exported="false"
+347-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:105:13-37
+348            android:initOrder="90" />
+348-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:106:13-35
+349
+350        <uses-library
+350-->[androidx.window:window:1.0.0-beta04] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/4db9dd16aa66876c1d6b65f02fe806ed/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+351            android:name="androidx.window.extensions"
+351-->[androidx.window:window:1.0.0-beta04] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/4db9dd16aa66876c1d6b65f02fe806ed/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+352            android:required="false" />
+352-->[androidx.window:window:1.0.0-beta04] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/4db9dd16aa66876c1d6b65f02fe806ed/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+353        <uses-library
+353-->[androidx.window:window:1.0.0-beta04] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/4db9dd16aa66876c1d6b65f02fe806ed/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+354            android:name="androidx.window.sidecar"
+354-->[androidx.window:window:1.0.0-beta04] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/4db9dd16aa66876c1d6b65f02fe806ed/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+355            android:required="false" />
+355-->[androidx.window:window:1.0.0-beta04] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/4db9dd16aa66876c1d6b65f02fe806ed/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+356
+357        <receiver
+357-->[com.google.firebase:firebase-messaging:23.1.1] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/78c44d617330def83893779632e83da3/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:31:9-38:20
+358            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+358-->[com.google.firebase:firebase-messaging:23.1.1] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/78c44d617330def83893779632e83da3/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:32:13-78
+359            android:exported="true"
+359-->[com.google.firebase:firebase-messaging:23.1.1] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/78c44d617330def83893779632e83da3/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:33:13-36
+360            android:permission="com.google.android.c2dm.permission.SEND" >
+360-->[com.google.firebase:firebase-messaging:23.1.1] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/78c44d617330def83893779632e83da3/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:34:13-73
+361            <intent-filter>
+361-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+362                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+362-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+362-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+363            </intent-filter>
+364        </receiver>
+365        <!--
+366             FirebaseMessagingService performs security checks at runtime,
+367             but set to not exported to explicitly avoid allowing another app to call it.
+368        -->
+369        <service
+369-->[com.google.firebase:firebase-messaging:23.1.1] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/78c44d617330def83893779632e83da3/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:44:9-51:19
+370            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+370-->[com.google.firebase:firebase-messaging:23.1.1] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/78c44d617330def83893779632e83da3/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:45:13-82
+371            android:directBootAware="true"
+371-->[com.google.firebase:firebase-messaging:23.1.1] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/78c44d617330def83893779632e83da3/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:46:13-43
+372            android:exported="false" >
+372-->[com.google.firebase:firebase-messaging:23.1.1] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/78c44d617330def83893779632e83da3/transformed/jetified-firebase-messaging-23.1.1/AndroidManifest.xml:47:13-37
+373            <intent-filter android:priority="-500" >
+373-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+374                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+374-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+374-->[:firebase_messaging] /Users/viirrawat/development/project/flutter/jumpq/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+375            </intent-filter>
+376        </service>
+377        <service
+377-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cb77c2eab8cc5ba2bacb3cc2e292a3bd/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:9:9-15:19
+378            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+378-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cb77c2eab8cc5ba2bacb3cc2e292a3bd/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:10:13-91
+379            android:directBootAware="true"
+379-->[com.google.mlkit:common:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/93d975c401a0ec6fb189489e393e8346/transformed/jetified-common-18.0.0/AndroidManifest.xml:17:13-43
+380            android:exported="false" >
+380-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cb77c2eab8cc5ba2bacb3cc2e292a3bd/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:11:13-37
+381            <meta-data
+381-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cb77c2eab8cc5ba2bacb3cc2e292a3bd/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:12:13-14:85
+382                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+382-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cb77c2eab8cc5ba2bacb3cc2e292a3bd/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:13:17-120
+383                android:value="com.google.firebase.components.ComponentRegistrar" />
+383-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cb77c2eab8cc5ba2bacb3cc2e292a3bd/transformed/jetified-play-services-mlkit-barcode-scanning-18.0.0/AndroidManifest.xml:14:17-82
+384            <meta-data
+384-->[com.google.mlkit:vision-common:17.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/2ca0519c62848b4d90406f1ba6ad8706/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:12:13-14:85
+385                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+385-->[com.google.mlkit:vision-common:17.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/2ca0519c62848b4d90406f1ba6ad8706/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:13:17-124
+386                android:value="com.google.firebase.components.ComponentRegistrar" />
+386-->[com.google.mlkit:vision-common:17.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/2ca0519c62848b4d90406f1ba6ad8706/transformed/jetified-vision-common-17.0.0/AndroidManifest.xml:14:17-82
+387            <meta-data
+387-->[com.google.mlkit:common:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/93d975c401a0ec6fb189489e393e8346/transformed/jetified-common-18.0.0/AndroidManifest.xml:20:13-22:85
+388                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+388-->[com.google.mlkit:common:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/93d975c401a0ec6fb189489e393e8346/transformed/jetified-common-18.0.0/AndroidManifest.xml:21:17-120
+389                android:value="com.google.firebase.components.ComponentRegistrar" />
+389-->[com.google.mlkit:common:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/93d975c401a0ec6fb189489e393e8346/transformed/jetified-common-18.0.0/AndroidManifest.xml:22:17-82
+390        </service>
+391
+392        <provider
+392-->[com.google.mlkit:common:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/93d975c401a0ec6fb189489e393e8346/transformed/jetified-common-18.0.0/AndroidManifest.xml:9:9-13:38
+393            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+393-->[com.google.mlkit:common:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/93d975c401a0ec6fb189489e393e8346/transformed/jetified-common-18.0.0/AndroidManifest.xml:10:13-78
+394            android:authorities="com.jumpq.jump_q.mlkitinitprovider"
+394-->[com.google.mlkit:common:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/93d975c401a0ec6fb189489e393e8346/transformed/jetified-common-18.0.0/AndroidManifest.xml:11:13-69
+395            android:exported="false"
+395-->[com.google.mlkit:common:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/93d975c401a0ec6fb189489e393e8346/transformed/jetified-common-18.0.0/AndroidManifest.xml:12:13-37
+396            android:initOrder="99" />
+396-->[com.google.mlkit:common:18.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/93d975c401a0ec6fb189489e393e8346/transformed/jetified-common-18.0.0/AndroidManifest.xml:13:13-35
+397
+398        <service
+398-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/413b267326a36772adf8aacaf02e6bb7/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+399            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+399-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/413b267326a36772adf8aacaf02e6bb7/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+400            android:exported="false" >
+400-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/413b267326a36772adf8aacaf02e6bb7/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+401            <meta-data
+401-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/413b267326a36772adf8aacaf02e6bb7/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+402                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+402-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/413b267326a36772adf8aacaf02e6bb7/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+403                android:value="cct" />
+403-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/413b267326a36772adf8aacaf02e6bb7/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+404        </service>
+405        <service
+405-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/f7fa3baf3cc38effbc800dad15af0ae5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+406            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+406-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/f7fa3baf3cc38effbc800dad15af0ae5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+407            android:exported="false"
+407-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/f7fa3baf3cc38effbc800dad15af0ae5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+408            android:permission="android.permission.BIND_JOB_SERVICE" >
+408-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/f7fa3baf3cc38effbc800dad15af0ae5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+409        </service>
+410
+411        <receiver
+411-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/f7fa3baf3cc38effbc800dad15af0ae5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+412            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+412-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/f7fa3baf3cc38effbc800dad15af0ae5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+413            android:exported="false" />
+413-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/f7fa3baf3cc38effbc800dad15af0ae5/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+414
+415        <activity
+415-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+416            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+416-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+417            android:excludeFromRecents="true"
+417-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+418            android:exported="true"
+418-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+419            android:launchMode="singleTask"
+419-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+420            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+420-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+421            <intent-filter>
+421-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+422                <action android:name="android.intent.action.VIEW" />
+422-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:93:17-69
+422-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:93:25-66
+423
+424                <category android:name="android.intent.category.DEFAULT" />
+424-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:51:17-76
+424-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:51:27-73
+425                <category android:name="android.intent.category.BROWSABLE" />
+425-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:96:17-78
+425-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:96:27-75
+426
+427                <data
+427-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:98:17-81
+428                    android:host="firebase.auth"
+429                    android:path="/"
+430                    android:scheme="genericidp" />
+430-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:98:23-78
+431            </intent-filter>
+432        </activity>
+433        <activity
+433-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+434            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+434-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+435            android:excludeFromRecents="true"
+435-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+436            android:exported="true"
+436-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+437            android:launchMode="singleTask"
+437-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+438            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+438-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+439            <intent-filter>
+439-->[com.google.firebase:firebase-auth:21.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/cd022b4c3e7bd5a9f8e7449bae0c938a/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+440                <action android:name="android.intent.action.VIEW" />
+440-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:93:17-69
+440-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:93:25-66
+441
+442                <category android:name="android.intent.category.DEFAULT" />
+442-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:51:17-76
+442-->/Users/viirrawat/development/project/flutter/jumpq/android/app/src/main/AndroidManifest.xml:51:27-73
+443                <category android:name="android.intent.category.BROWSABLE" />
+443-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:96:17-78
+443-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:96:27-75
+444
+445                <data
+445-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:98:17-81
+446                    android:host="firebase.auth"
+447                    android:path="/"
+448                    android:scheme="recaptcha" />
+448-->[com.firebaseui:firebase-ui-auth:7.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/36fcf11776788ff38b35a34618a62998/transformed/jetified-firebase-ui-auth-7.2.0/AndroidManifest.xml:98:23-78
+449            </intent-filter>
+450        </activity>
+451
+452        <provider
+452-->[com.google.firebase:firebase-common:20.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b7c4c5b2513e76b39484cd208cddfdd5/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+453            android:name="com.google.firebase.provider.FirebaseInitProvider"
+453-->[com.google.firebase:firebase-common:20.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b7c4c5b2513e76b39484cd208cddfdd5/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+454            android:authorities="com.jumpq.jump_q.firebaseinitprovider"
+454-->[com.google.firebase:firebase-common:20.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b7c4c5b2513e76b39484cd208cddfdd5/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+455            android:directBootAware="true"
+455-->[com.google.firebase:firebase-common:20.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b7c4c5b2513e76b39484cd208cddfdd5/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+456            android:exported="false"
+456-->[com.google.firebase:firebase-common:20.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b7c4c5b2513e76b39484cd208cddfdd5/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+457            android:initOrder="100" />
+457-->[com.google.firebase:firebase-common:20.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b7c4c5b2513e76b39484cd208cddfdd5/transformed/jetified-firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+458
+459        <activity
+459-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:22:9-25:72
+460            android:name="com.cashfree.pg.ui.web_checkout.CFPaymentActivity"
+460-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:23:13-77
+461            android:exported="false"
+461-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:24:13-37
+462            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+462-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:25:13-69
+463        <activity
+463-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:26:9-29:66
+464            android:name="com.cashfree.pg.ui.CFResponseHandlerActivity"
+464-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:27:13-72
+465            android:exported="false"
+465-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:28:13-37
+466            android:theme="@style/Theme.AppCompat.Translucent" />
+466-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:29:13-63
+467        <activity
+467-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:30:9-33:66
+468            android:name="com.cashfree.pg.ui.upi.CFUPIPaymentActivity"
+468-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:31:13-71
+469            android:exported="false"
+469-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:32:13-37
+470            android:theme="@style/Theme.AppCompat.Translucent" />
+470-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:33:13-63
+471        <activity
+471-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:34:9-37:66
+472            android:name="com.cashfree.pg.ui.amazonpay.AmazonPayActivity"
+472-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:35:13-74
+473            android:exported="false"
+473-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:36:13-37
+474            android:theme="@style/Theme.AppCompat.Translucent" />
+474-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:37:13-63
+475        <activity
+475-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:38:9-41:66
+476            android:name="com.cashfree.pg.ui.gpay.GooglePayActivity"
+476-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:39:13-69
+477            android:exported="false"
+477-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:40:13-37
+478            android:theme="@style/Theme.AppCompat.Translucent" />
+478-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:41:13-63
+479        <activity
+479-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:42:9-45:66
+480            android:name="com.cashfree.pg.ui.phonepe.CFPhonePayActivity"
+480-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:43:13-73
+481            android:exported="false"
+481-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:44:13-37
+482            android:theme="@style/Theme.AppCompat.Translucent" />
+482-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:45:13-63
+483        <activity
+483-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:46:9-49:72
+484            android:name="com.cashfree.pg.ui.simulator.CFUPITestAppActivity"
+484-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:47:13-77
+485            android:exported="false"
+485-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:48:13-37
+486            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+486-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:49:13-69
+487        <activity
+487-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:50:9-53:66
+488            android:name="com.cashfree.pg.ui.simulator.CFUPITestActivity"
+488-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:51:13-74
+489            android:exported="false"
+489-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:52:13-37
+490            android:theme="@style/Theme.AppCompat.Translucent" />
+490-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:53:13-63
+491
+492        <provider
+492-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:55:9-58:40
+493            android:name="com.cashfree.pg.CashfreeAndroidSdkContentProvider"
+493-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:56:13-77
+494            android:authorities="com.jumpq.jump_q.cashfreeandroidsdkcontentprovider"
+494-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:57:13-85
+495            android:exported="false" />
+495-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:58:13-37
+496
+497        <meta-data
+497-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:60:9-62:78
+498            android:name="cashfree_pg_core_auto_initialization_enabled"
+498-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:61:13-72
+499            android:value="@bool/cashfree_pg_core_auto_initialize_enabled" />
+499-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:62:13-75
+500        <meta-data
+500-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:63:9-65:72
+501            android:name="cashfree_pg_core_reporting_enabled"
+501-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:64:13-62
+502            android:value="@bool/cashfree_pg_core_reporting_enabled" />
+502-->[com.cashfree.pg:android-sdk:1.7.28] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/18b0032ba8b37263e6ea21e0a0a80062/transformed/jetified-android-sdk-1.7.28/AndroidManifest.xml:65:13-69
+503
+504        <service
+504-->[androidx.camera:camera-camera2:1.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/41a5bb7b90032948260577d38637cb31/transformed/jetified-camera-camera2-1.1.0/AndroidManifest.xml:26:9-35:19
+505            android:name="androidx.camera.core.impl.MetadataHolderService"
+505-->[androidx.camera:camera-camera2:1.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/41a5bb7b90032948260577d38637cb31/transformed/jetified-camera-camera2-1.1.0/AndroidManifest.xml:27:13-75
+506            android:enabled="false"
+506-->[androidx.camera:camera-camera2:1.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/41a5bb7b90032948260577d38637cb31/transformed/jetified-camera-camera2-1.1.0/AndroidManifest.xml:28:13-36
+507            android:exported="false" >
+507-->[androidx.camera:camera-camera2:1.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/41a5bb7b90032948260577d38637cb31/transformed/jetified-camera-camera2-1.1.0/AndroidManifest.xml:29:13-37
+508            <meta-data
+508-->[androidx.camera:camera-camera2:1.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/41a5bb7b90032948260577d38637cb31/transformed/jetified-camera-camera2-1.1.0/AndroidManifest.xml:32:13-34:89
+509                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+509-->[androidx.camera:camera-camera2:1.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/41a5bb7b90032948260577d38637cb31/transformed/jetified-camera-camera2-1.1.0/AndroidManifest.xml:33:17-103
+510                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+510-->[androidx.camera:camera-camera2:1.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/41a5bb7b90032948260577d38637cb31/transformed/jetified-camera-camera2-1.1.0/AndroidManifest.xml:34:17-86
+511        </service>
+512
+513        <activity
+513-->[com.google.android.gms:play-services-auth:19.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/0e9e07b837b684c903b62b6c57dac68f/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+514            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+514-->[com.google.android.gms:play-services-auth:19.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/0e9e07b837b684c903b62b6c57dac68f/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+515            android:excludeFromRecents="true"
+515-->[com.google.android.gms:play-services-auth:19.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/0e9e07b837b684c903b62b6c57dac68f/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+516            android:exported="false"
+516-->[com.google.android.gms:play-services-auth:19.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/0e9e07b837b684c903b62b6c57dac68f/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+517            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+517-->[com.google.android.gms:play-services-auth:19.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/0e9e07b837b684c903b62b6c57dac68f/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+518        <!--
+519            Service handling Google Sign-In user revocation. For apps that do not integrate with
+520            Google Sign-In, this service will never be started.
+521        -->
+522        <service
+522-->[com.google.android.gms:play-services-auth:19.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/0e9e07b837b684c903b62b6c57dac68f/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+523            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+523-->[com.google.android.gms:play-services-auth:19.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/0e9e07b837b684c903b62b6c57dac68f/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+524            android:exported="true"
+524-->[com.google.android.gms:play-services-auth:19.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/0e9e07b837b684c903b62b6c57dac68f/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+525            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+525-->[com.google.android.gms:play-services-auth:19.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/0e9e07b837b684c903b62b6c57dac68f/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+526            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+526-->[com.google.android.gms:play-services-auth:19.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/0e9e07b837b684c903b62b6c57dac68f/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+527        <uses-library
+527-->[com.google.android.gms:play-services-maps:18.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/ebd3e00ff57156730499f7cdfa995ff3/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+528            android:name="org.apache.http.legacy"
+528-->[com.google.android.gms:play-services-maps:18.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/ebd3e00ff57156730499f7cdfa995ff3/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+529            android:required="false" />
+529-->[com.google.android.gms:play-services-maps:18.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/ebd3e00ff57156730499f7cdfa995ff3/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+530
+531        <receiver
+531-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+532            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+532-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+533            android:enabled="true"
+533-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+534            android:exported="false" >
+534-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+535        </receiver>
+536
+537        <service
+537-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+538            android:name="com.google.android.gms.measurement.AppMeasurementService"
+538-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+539            android:enabled="true"
+539-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+540            android:exported="false" />
+540-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+541        <service
+541-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+542            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+542-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+543            android:enabled="true"
+543-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+544            android:exported="false"
+544-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+545            android:permission="android.permission.BIND_JOB_SERVICE" />
+545-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/27a636504c267916099a66916a21bb06/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+546
+547        <activity
+547-->[com.google.android.gms:play-services-base:18.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b466f4e18ebc43b3dc63d3a0c8a5f53d/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+548            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+548-->[com.google.android.gms:play-services-base:18.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b466f4e18ebc43b3dc63d3a0c8a5f53d/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+549            android:exported="false"
+549-->[com.google.android.gms:play-services-base:18.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b466f4e18ebc43b3dc63d3a0c8a5f53d/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+550            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+550-->[com.google.android.gms:play-services-base:18.1.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/b466f4e18ebc43b3dc63d3a0c8a5f53d/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+551
+552        <provider
+552-->[androidx.emoji2:emoji2:1.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/2adbcf7d1be289ad5c1f35615ba5e078/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+553            android:name="androidx.startup.InitializationProvider"
+553-->[androidx.emoji2:emoji2:1.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/2adbcf7d1be289ad5c1f35615ba5e078/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+554            android:authorities="com.jumpq.jump_q.androidx-startup"
+554-->[androidx.emoji2:emoji2:1.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/2adbcf7d1be289ad5c1f35615ba5e078/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+555            android:exported="false" >
+555-->[androidx.emoji2:emoji2:1.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/2adbcf7d1be289ad5c1f35615ba5e078/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+556            <meta-data
+556-->[androidx.emoji2:emoji2:1.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/2adbcf7d1be289ad5c1f35615ba5e078/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+557                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+557-->[androidx.emoji2:emoji2:1.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/2adbcf7d1be289ad5c1f35615ba5e078/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+558                android:value="androidx.startup" />
+558-->[androidx.emoji2:emoji2:1.0.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/2adbcf7d1be289ad5c1f35615ba5e078/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+559            <meta-data
+559-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/bbbf159ff05cb3334b122f1ff043ec7b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+560                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+560-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/bbbf159ff05cb3334b122f1ff043ec7b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+561                android:value="androidx.startup" />
+561-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/bbbf159ff05cb3334b122f1ff043ec7b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+562        </provider>
+563
+564        <activity
+564-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+565            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+565-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+566            android:clearTaskOnLaunch="true"
+566-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+567            android:screenOrientation="sensorLandscape"
+567-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+568            android:stateNotNeeded="true"
+568-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+569            android:theme="@style/zxing_CaptureTheme"
+569-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+570            android:windowSoftInputMode="stateAlwaysHidden" />
+570-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/viirrawat/Library/Android/sdk/caches/transforms-3/96ec2dfdf4f88423623d18d99726d030/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+571    </application>
+572
+573</manifest>
